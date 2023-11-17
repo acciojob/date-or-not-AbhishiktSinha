@@ -1,5 +1,8 @@
 var isDate = function (input) {
-  //   write your code here
+  //   write your code 
+	let dateContainer = new Date(input);
+	if(dateContainer.toString() == "Invalid Date") return false;
+	return true;
 };
 
 // Do not change the code below.
